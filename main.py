@@ -36,7 +36,7 @@ def send_telegram(msg):
     except Exception as e:
         print("❌ Gửi lỗi:", e)
 
-send_telegram("🤖 Bot lớp CỜ VUA đã chạy trên Render!")
+send_telegram("🤖 Bot lớp CỜ VUA đã chạy !")
 
 while True:
     class_info = get_class_info()
