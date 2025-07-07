@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import time
+from keep_alive import keep_alive
+keep_alive()
 
 URL = "https://lopmoi.giasutrithuc.net/covua"
 BOT_TOKEN = "8009452196:AAEpTgVa3gfbS1qUfXTg3IrcnQdCmmjF1UE"
